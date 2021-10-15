@@ -1,0 +1,135 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #183059;
+  color: #ffffff;
+}
+.App {
+  /* text-align: center; */
+}
+.addBlog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #068932;
+  color: #ffffff;
+  cursor: pointer;
+  width: 15vw;
+  max-width: 115px;
+  height: 5vh;
+  border-radius: 4px;
+}
+.btn_Link {
+  padding: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+#link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.table_row {
+  padding: 1rem;
+  padding-left: 1.5rem;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.2);
+  border-top: 1px solid rgba(211, 211, 211, 0.2);
+  color: #ffffff;
+}
+
+.table_row h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Courier,
+    monospace;
+  font-weight: 600;
+  line-height: 1rem;
+  padding-bottom: 0rem;
+}
+.table_row p {
+  font-size: 0.8rem;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.blog_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog_nav div {
+  display: flex;
+  align-items: center;
+}
+
+.blog {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #d1d1d193;
+  border-radius: 4px;
+}
+.blog h1 {
+  font-size: 4rem;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+  letter-spacing: 4px;
+  border-bottom: 1px solid rgb(167, 167, 167);
+  width: fit-content;
+}
+.blog p.categories {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  color: #bababab3;
+}
+
+.blog p {
+  color: #ffffffa8;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  word-spacing: 0.4rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 1rem;
+}
+.form_lable {
+  font-size: 1.3rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+.form_field {
+  font-size: 0.9rem;
+  height: 4vh;
+  padding: 10px;
+  background: #ffffff;
+  border: none;
+}
+.form_btn {
+  display: flex;
+  margin-top: 2rem;
+}
+.btn_for {
+  margin-right: 10px;
+}
+
+.like {
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+.list_title {
+  font-size: 2rem;
+  margin: 0.5rem;
+  text-align: center;
+  color: #ffffff;
+}
+.blog_list {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
