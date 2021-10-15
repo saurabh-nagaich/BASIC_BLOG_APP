@@ -3,7 +3,7 @@
 I complete this under 4hr
 
 you can create, edit, like & delete blogs,
-and more importantly you can read also
+and more importantly you can read also😛
 
 In this App I used Redux as a globel store
 
